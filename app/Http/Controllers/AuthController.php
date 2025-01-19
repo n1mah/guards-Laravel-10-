@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Hash;
 class AuthController extends Controller
 {
 
+    public function index()
+    {
+        return view('dashboard');
+    }
 
     public function registerForm()
     {

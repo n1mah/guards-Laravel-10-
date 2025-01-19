@@ -12,6 +12,11 @@ class AuthController extends Controller
 {
 
 
+    public function index()
+    {
+        return view('admin.dashboard');
+    }
+
     public function registerForm()
     {
         return view('admin.register');
